@@ -18,6 +18,12 @@ h1 {
 #game {
   display: flex;
 }
+.game-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 .genre-column {
   display: flex;
@@ -49,4 +55,9 @@ h1 {
   border: 1px solid #fff;
   width: 45px;
   border-radius: 3px;
+}
+.scoreboard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

@@ -87,7 +87,7 @@ function getResult() {
   const cardOfButton = this.parentElement
   if (cardOfButton.getAttribute('data-answer') === this.innerHTML) {
     score = score + parseInt(cardOfButton.getAttribute('data-value'))
-    scoreDisplay.innerHTML = score
+    scoreDisplay.innerHTML = `Score: ${score}`
     cardOfButton.classList.add('correct-answer')
     setTimeout(() => {
       while (cardOfButton.firstChild) {
